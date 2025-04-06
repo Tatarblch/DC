@@ -1,7 +1,8 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+    """Просто угадываем на random, никак не используя информацию о больше или меньше.
+       Функция принимает загаданное число и возвращает число попыток
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -20,6 +21,7 @@ def random_predict(number:int=1) -> int:
     return(count)
 
 print(f'Количество попыток: {random_predict()}')
+
 
 """Игра угадай число.
 Компьютер сам загадывает и угадывает число
